@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Provides an interface to the wine.com API.}
   s.email = %q{cmeik@me.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/wine_dot_com_api_request.rb", "lib/wine_dot_com_api_request/configuration.rb"]
-  s.files = ["MIT-LICENSE", "Manifest", "README.rdoc", "Rakefile", "init.rb", "lib/wine_dot_com_api_request.rb", "lib/wine_dot_com_api_request/configuration.rb", "test/wine_dot_com_api_request_test.rb", "wine_dot_com_api_request.gemspec"]
+  s.files = ["MIT-LICENSE", "Manifest", "README.rdoc", "Rakefile", "init.rb", "lib/wine_com.rb", "lib/wine_com/configuration.rb", "test/wine_com_test.rb", "wine_com.gemspec"]
   s.homepage = %q{https://github.com/geeosh/wine_com}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wine_com", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
