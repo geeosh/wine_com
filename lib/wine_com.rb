@@ -29,7 +29,7 @@ require "wine_dot_com_api_request/configuration"
 require 'net/http'
 require 'uri'
 
-class WineDotComApiRequest
+class WineCom
   public
     # API key from Wine.com.
     attr_accessor         :api_key

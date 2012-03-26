@@ -1,6 +1,6 @@
 = Introduction 
 
-WineDotComApiRequest provides a simple no-frills interface to the Wine.com query API.
+WineCom provides a simple no-frills interface to the Wine.com query API.
   
 Its purpose is to eliminate the code duplication in setting up the request each time
 you which to receive information from the API.

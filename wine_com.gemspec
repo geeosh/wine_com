@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
   s.homepage = %q{https://github.com/cmeiklejohn/wine_dot_com_api_request}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wine_dot_com_api_request", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{wine_dot_com_api_request}
+  s.rubyforge_project = %q{wine_com}
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Provides an interface to the wine.com API.}
-  s.test_files = ["test/wine_dot_com_api_request_test.rb"]
+  s.test_files = ["test/wine_com_test.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

@@ -1,1 +1,1 @@
-require 'wine_dot_com_api_request'
+require 'wine_com'

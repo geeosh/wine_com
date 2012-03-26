@@ -3,7 +3,7 @@ Manifest
 README.rdoc
 Rakefile
 init.rb
-lib/wine_dot_com_api_request.rb
-lib/wine_dot_com_api_request/configuration.rb
-test/wine_dot_com_api_request_test.rb
-wine_dot_com_api_request.gemspec
+lib/wine_com.rb
+lib/wine_com/configuration.rb
+test/wine_com_test.rb
+wine_com.gemspec
