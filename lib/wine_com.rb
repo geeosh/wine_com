@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-# WineDotComApiRequest class.  
+# WineCom class.  
 #
 # Provides an interface to access the Wine.com API.
 # 
@@ -9,7 +9,7 @@
 # License:: Distributes under the terms specified in the MIT-LICENSE file.
 #
 # Usage example: 
-#w = WineDotComApiRequest.new(:search => 'mondavi cabernet',
+#w = WineCom.new(:search => 'mondavi cabernet',
 #                             :format => :xml,
 #                             :resource => :catalog,
 #                             :size => 1,
@@ -25,7 +25,7 @@
 # * Extract out api key and base url into configuration parameters
 #
 # See: http://api.wine.com/wiki/2-catalog-queries
-require "wine_dot_com_api_request/configuration"
+require "wine_com/configuration"
 require 'net/http'
 require 'uri'
 
