@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{wine_dot_com_api_request}
+  s.name = %q{wine_com}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.email = %q{cmeik@me.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/wine_dot_com_api_request.rb", "lib/wine_dot_com_api_request/configuration.rb"]
   s.files = ["MIT-LICENSE", "Manifest", "README.rdoc", "Rakefile", "init.rb", "lib/wine_dot_com_api_request.rb", "lib/wine_dot_com_api_request/configuration.rb", "test/wine_dot_com_api_request_test.rb", "wine_dot_com_api_request.gemspec"]
-  s.homepage = %q{https://github.com/cmeiklejohn/wine_dot_com_api_request}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wine_dot_com_api_request", "--main", "README.rdoc"]
+  s.homepage = %q{https://github.com/geeosh/wine_com}
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wine_com", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{wine_com}
   s.rubygems_version = %q{1.3.5}
